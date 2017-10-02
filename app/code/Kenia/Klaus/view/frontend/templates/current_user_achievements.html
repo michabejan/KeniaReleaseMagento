@@ -1,0 +1,11 @@
+<div class="row">
+  <% if spree_current_user.achievements.size > 0 %>
+      <div class="image">123</div>
+      <% for attribute in spree_current_user.achievements %>
+          <p><%= attribute.content %> </p>
+      <%= link_to image_tag(attribute.image.url(:thumb), class: "media-object"), attribute.image.url, target: "_blank" %>
+      <% end %>
+  <% else %>
+      <div class="two">something else</div>
+  <% end %>
+</div>

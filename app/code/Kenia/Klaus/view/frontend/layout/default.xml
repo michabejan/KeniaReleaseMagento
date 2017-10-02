@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+
+        <move element="navigation.sections" destination="header.container" before="header-wrapper"/>
+        <referenceBlock name="search_mini_form" remove="true"/>
+        <referenceBlock name="top.search" remove="true"/>
+
+        <move element="logo" destination="catalog.topnav" after="-" />
+
+    </body>
+</page>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="top.links">
+            <block class="Magento\Framework\View\Element\Html\Link\Current" name="aboutus">
+                <arguments>
+                    <argument name="label" xsi:type="string">About Us</argument>
+                    <argument name="path" xsi:type="string">aboutus</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+
+
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.png</argument>
+            </arguments>
+        </referenceBlock>
+        <remove name="report.bugs"/>
+        <referenceBlock name="footer_links" remove="true" />
+    </body>
+</page>

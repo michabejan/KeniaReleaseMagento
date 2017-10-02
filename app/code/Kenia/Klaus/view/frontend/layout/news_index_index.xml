@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+
+        <css src="Kenia_Klaus::css/main.css"/>
+        <css src="Kenia_Klaus::css/custom.css"/>
+        <css src="Kenia_Klaus::css/facebook.css"/>
+
+
+        <script src="Kenia_Klaus::js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="Kenia_Klaus::js/vendor/jquery-1.11.2.js"></script>
+        <script src="Kenia_Klaus::js/vendor/jquery-1.11.2.min.js"></script>
+        <!--  <script src="https://code.jquery.com/jquery-1.12.4.js" src_type="url"/> -->
+        <!-- <script src="https://code.jquery.com/jquery-1.12.4.min.js" src_type="url"/> -->
+
+
+
+
+
+        <css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" src_type="url"/>
+        <css src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" src_type="url"/>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" src_type="url"></script>
+
+        <link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'/>
+        <script src="Kenia_Klaus::js/facebook.js"></script>
+        <script src="Kenia_Klaus::js/test.js"></script>
+        <script src="Kenia_Klaus::js/vendor/plugins.js"></script>
+
+        <remove src="requirejs/require.js"/>
+        <remove src="mage/requirejs/mixins.js"/>
+        <remove src="requirejs-config.js"/>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" template="Kenia_Klaus::news.phtml"/>
+        </referenceContainer>
+
+    </body>
+
+</page>

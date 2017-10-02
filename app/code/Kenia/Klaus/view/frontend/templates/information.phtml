@@ -1,0 +1,135 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?&key=AIzaSyBetPgIfLnazzqTl9hOMxMB3KxP3LXvvUQ"></script>
+    <script src="//cdn.rawgit.com/mahnunchik/markerclustererplus/master/dist/markerclusterer.min.js"></script>
+    <script src='//cdn.rawgit.com/printercu/google-maps-utility-library-v3-read-only/master/infobox/src/infobox_packed.js' type='text/javascript'></script>
+
+
+
+
+
+
+</head>
+
+<body style="overflow-x: hidden">
+
+
+<header >
+    <div class="header">
+
+    </div>
+
+</header>
+
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Add your site or application content here -->
+
+<main> <div id="wrapper">
+
+
+
+
+
+        <div style='width: 100%;'>
+            <div id="map" style='height: 100vh;z-index:0 '>
+
+
+            </div>
+
+        </div> <!-- only if you need custom infoboxes -->
+
+
+
+
+
+
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content" style="
+    ">
+                    <div class="modal-header">
+                        <button id="closemodal" type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div id="modalBody" class="modal-body">
+
+                        <img src='<?php echo $this->getViewFileUrl('Kenia_Klaus::img/runyenjes.jpg'); ?>'"  alt = "rss feed">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button id="closemodal2" type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </div> </main>
+
+
+
+
+
+<script type="text/javascript">
+
+        jQuery.noConflict();
+        window.imgpath = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/logo1.jpg') ?>';
+        window.mathare = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/mathare.jpg') ?>';
+        window.korogocho = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/korogocho.jpg') ?>';
+        window.kambiu = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/kambiu.jpg') ?>';
+        window.maaiMahiu = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/maai.jpg') ?>';
+        window.embu = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/embu.jpg') ?>';
+        window.runyenjes = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/runyenjes.jpg') ?>';
+        window.mtitAndei = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/mtito.jpg') ?>';
+        window.emali = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/emali.jpg') ?>';
+        window.mombasa = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/mombasa.jpg') ?>';
+        window.jinja = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/jinja.jpg') ?>';
+        window.nakuru = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/nakuru.jpg') ?>';
+        window.kisumu = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/kisumu.jpg') ?>';
+        window.adama = '<?php echo $this->getViewFileUrl('Kenia_Klaus::img/adama.jpg') ?>';
+
+        google.maps.event.addDomListener(window, "load", initMap());
+
+
+
+
+</script>
+
+
+
+
+<script src="https://cdn.smooch.io/smooch.min.js"></script>
+
+<script>
+    Smooch.init({ appToken: '06fbe0xhqw9tec9vnws3052ir'
+    });
+</script>
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='https://www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+</body>
+</html>
