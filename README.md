@@ -1,2 +1,2 @@
-<a href="www.kenia-projekt.de">Kenia-Projekt</a>?
+<a href="www.kenia-projekt.de">Kenia-Projekt</a>
 
